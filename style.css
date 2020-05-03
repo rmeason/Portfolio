@@ -1,0 +1,40 @@
+@media screen and (min-width: 400px) and (max-width: 1150px) {
+
+    #about, #portfolio, #contact {
+
+        padding-right: .5rem;
+        padding-left: .5rem;
+
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .navbar-brand {
+
+
+
+    }
+
+}
+
+.bg-light {
+
+    background: slategrey !important;
+
+}
+
+.navbar-brand {
+
+    background-color: cadetblue;
+    border: double;
+
+}
+
+.navbar-nav {
+
+    margin-inline-start: auto;
+    flex-direction: row;
+
+}
