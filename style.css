@@ -79,7 +79,7 @@ body {
     margin-top: 50px;
     border: double;
     background: lightgrey;
-    width: 500px;
+    width: 550px;
 
 }
 
@@ -94,7 +94,13 @@ body {
 
 .bio-pic {
 
-    float: none;
+    float: left;
+
+}
+
+#about-me-text {
+
+    margin-top: -7px;
 
 }
 
