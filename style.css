@@ -32,7 +32,7 @@ body {
 
 }
 
-@media screen and (max-width: 768px) and (min-width: 100px) {
+@media screen and (max-width: 768px) {
 
     .contact-info {
 
@@ -45,11 +45,18 @@ body {
 
 @media screen and (max-width: 640px) {
 
-    .navbar {
+    .navbar, #low-row {
 
     flex-direction: column;
     align-content: center;
+    align-items: center;
     
+    }
+
+    .col-6 {
+
+        flex: none;
+
     }
 
 }
@@ -121,7 +128,7 @@ body {
 
 }
 
-#contact-label {
+#contact-label, #portfolio-logo {
 
     background-color: cadetblue;
     border: double;
@@ -141,3 +148,76 @@ body {
     margin-top: 10px;
 
 }
+
+.col-6 {
+
+    margin-top: 50px;
+    text-align: center;
+    -webkit-text-emphasis-style: open;
+    border: double;
+    background-color: cadetblue;
+
+
+}
+
+#blank {
+
+    background-color: lightgrey;
+
+}
+
+#word-guess {
+
+        background-image: url("https://d2.alternativeto.net/dist/icons/image-placeholder_88743.png?width=200&height=200&mode=crop&upscale=false"); /* The image used */
+        background-color: lightgrey; /* Used if the image is unavailable */
+        height: 200px;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+#rpg  {
+
+    background-image: url("https://d2.alternativeto.net/dist/icons/image-placeholder_88743.png?width=200&height=200&mode=crop&upscale=false"); /* The image used */
+    background-color: lightgrey; /* Used if the image is unavailable */
+    height: 200px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+#trivia  {
+
+    background-image: url("https://d2.alternativeto.net/dist/icons/image-placeholder_88743.png?width=200&height=200&mode=crop&upscale=false"); /* The image used */
+    background-color: lightgrey; /* Used if the image is unavailable */
+    height: 200px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+#widget  {
+
+    background-image: url("https://d2.alternativeto.net/dist/icons/image-placeholder_88743.png?width=200&height=200&mode=crop&upscale=false"); /* The image used */
+    background-color: lightgrey; /* Used if the image is unavailable */
+    height: 200px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+#rock-paper-scissors {
+
+        background-image: url("https://d2.alternativeto.net/dist/icons/image-placeholder_88743.png?width=200&height=200&mode=crop&upscale=false"); /* The image used */
+        background-color: lightgrey; /* Used if the image is unavailable */
+        height: 200px;
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
