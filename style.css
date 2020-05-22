@@ -174,29 +174,32 @@ body {
 
 #word-guess {
 
-        background-image: url("https://d2.alternativeto.net/dist/icons/image-placeholder_88743.png?width=200&height=200&mode=crop&upscale=false"); /* The image used */
+        background-image: url("2020-05-22 (2).png"); /* The image used */
         background-color: lightgrey; /* Used if the image is unavailable */
         height: 200px;
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
+        color: ivory;
 
 }
 
 #rpg  {
 
-    background-image: url("https://d2.alternativeto.net/dist/icons/image-placeholder_88743.png?width=200&height=200&mode=crop&upscale=false"); /* The image used */
+    background-image: url("2020-05-22 (6).png"); /* The image used */
     background-color: lightgrey; /* Used if the image is unavailable */
     height: 200px;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    color: fuchsia;
+
 
 }
 
 #trivia  {
 
-    background-image: url("https://d2.alternativeto.net/dist/icons/image-placeholder_88743.png?width=200&height=200&mode=crop&upscale=false"); /* The image used */
+    background-image: url("2020-05-22 (3).png"); /* The image used */
     background-color: lightgrey; /* Used if the image is unavailable */
     height: 200px;
     background-position: center; /* Center the image */
