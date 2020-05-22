@@ -111,6 +111,12 @@ body {
 
 }
 
+#row-5 #row-6 #row-7 {
+
+    border-bottom: double;
+
+}
+
 .contact-info {
 
     border: double;
